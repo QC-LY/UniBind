@@ -1,0 +1,30 @@
+pytorchvideo @ git+https://github.com/facebookresearch/pytorchvideo.git@28fe037d212663c6a24f373b94cc5d478c8c1a1d
+fvcore
+eva-decord==0.6.1
+iopath
+numpy>=1.19
+matplotlib
+types-regex
+mayavi
+easydict==1.9
+timm==0.4.12
+ftfy==6.0.1
+regex==2022.10.31
+pyyaml_env_tag==0.1
+h5py==3.6.0
+open3d==0.16.0
+wandb==0.13.3
+termcolor==1.1.0
+lmdb==1.3.0
+torchaudio
+einops
+ipdb
+ninja
+fairscale
+fire
+sentencepiece
+transformers
+timm
+tensorboard
+KNN-CUDA @ https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl#sha256=809a43da2eed950c65ba15e355e8cdbf975b6a948dced1f02414f26aba586cd0
+pointnet2-ops @ git+https://github.com/erikwijmans/Pointnet2_PyTorch.git@b5ceb6d9ca0467ea34beb81023f96ee82228f626#subdirectory=pointnet2_ops_lib
