@@ -6,15 +6,22 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
 
 ## Requirements
 
-```
-git clone https://github.com/qc-ly/UniBind
-cd UniBind
-conda create -n unibind python==3.9
-conda activate unibind
-conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
-conda install cartopy
-pip install -r requirements.txt
-```
+* Clone the repository:
+   ```
+   git clone https://github.com/qc-ly/UniBind
+   cd UniBind
+   ```
+* Create an environment:
+   ```
+   conda create -n unibind python==3.9
+   conda activate unibind
+   ```
+* Install the required dependency packages:
+   ```
+   conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
+   conda install cartopy
+   pip install -r requirements.txt
+   ```
 
 ## Quick Start
 
