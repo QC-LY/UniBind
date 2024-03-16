@@ -115,19 +115,20 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
 
 3. Process the **datasets** in the following form:
    ```
-   |----datasets/
-   |--------ImageNet-1k/
-   |------------train_dataset/
-   |----------------0.jpg
-   |----------------1.jpg
-   |----------------...
-   |------------eval_dataset/
-   |------------test_dataset/
-   |------------train_data.json
-   |------------eval_data.json
-   |------------test_data.json
-   |--------...
-   |--------ESC-50/
+   |----｜datasets/
+   |----｜---｜ImageNet-1k/
+   |----｜---｜---｜train_dataset/
+   |----｜---｜---｜---0.jpg
+   |----｜---｜---｜---1.jpg
+   |----｜---｜---｜---...
+   |----｜---｜---｜eval_dataset/
+   |----｜---｜---｜test_dataset/
+   |----｜---｜---｜train_data.json
+   |----｜---｜---｜eval_data.json
+   |----｜---｜---｜test_data.json
+   |----｜---｜...
+   |----｜---｜ESC-50/
+   |----｜---｜---｜...
    ```
 
 5. The data format of the `test_data.json` is shown as follows:
@@ -188,19 +189,20 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
 4. Process the **datasets** in the following form:
 
    ```
-   |----datasets/
-   |--------ImageNet-1k/
-   |------------train_dataset/
-   |----------------0.jpg
-   |----------------1.jpg
-   |----------------...
-   |------------eval_dataset/
-   |------------test_dataset/
-   |------------train_data.json
-   |------------eval_data.json
-   |------------test_data.json
-   |--------...
-   |--------ESC-50/
+   |----｜datasets/
+   |----｜---｜ImageNet-1k/
+   |----｜---｜---｜train_dataset/
+   |----｜---｜---｜---0.jpg
+   |----｜---｜---｜---1.jpg
+   |----｜---｜---｜---...
+   |----｜---｜---｜eval_dataset/
+   |----｜---｜---｜test_dataset/
+   |----｜---｜---｜train_data.json
+   |----｜---｜---｜eval_data.json
+   |----｜---｜---｜test_data.json
+   |----｜---｜...
+   |----｜---｜ESC-50/
+   |----｜---｜---｜...
    ```
 
 5. The data format of the `train_data.json` is shown as follows:
