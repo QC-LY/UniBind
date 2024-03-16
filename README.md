@@ -107,7 +107,46 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
    The categories are: ['gerenuk', 'sea_horse']
    ```
 
-## Zero-shot && Fine-tune
+## Zero-shot
+
+1. Download the **pre-trained weights** from [[link]()] to `./ckpts/`
+
+2. Download the **centre embeddings** from [[link]()] to `./centre_embs/`
+
+3. Process the **datasets** in the following form:
+   ```
+   |----datasets/
+   |--------ImageNet-1k/
+   |------------train_dataset/
+   |----------------0.jpg
+   |----------------1.jpg
+   |----------------...
+   |------------eval_dataset/
+   |------------test_dataset/
+   |------------train_data.json
+   |------------eval_data.json
+   |------------test_data.json
+   |--------...
+   |--------ESC-50/
+   ```
+
+5. The data format of the `test_data.json` is shown as follows:
+    ```json
+   [
+     {
+       "data": data_file_name,
+       "label": label,
+     }
+     ...
+   ]
+   ```
+6. Running for **zero-shot** setting.
+   ```shell
+   cd scripts
+   bash zero_shot.sh
+   ```
+
+## Fine-tune
 
 1. Download the **pre-trained weights** from [[link]()] to `./ckpts/`
 
@@ -164,7 +203,7 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
    |--------ESC-50/
    ```
 
-   The data format of the `train_data.json` is shown as follows:
+5. The data format of the `train_data.json` is shown as follows:
 
    ```json
    [
@@ -176,8 +215,7 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
      ...
    ]
    ```
-
-   The data format of the `eval_data.json` and `test_data.json` is shown as follows:
+6. The data format of the `eval_data.json` and `test_data.json` is shown as follows:
 
    ```json
    [
@@ -189,14 +227,7 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
    ]
    ```
 
-5. Running for **zero-shot** setting.
-
-   ```shell
-   cd scripts
-   bash zero_shot.sh
-   ```
-
-6. Running for **fine-tune** setting.
+7. Running for **fine-tune** setting.
 
    ```shell
    cd scripts
@@ -253,6 +284,7 @@ If you find this repository useful, please consider giving stars ⭐ and citatio
 
 ## Contact
 
+If you have questions, suggestions, and bug reports, please email:
 ```
 lvyuanhuiyi@foxmail.com
 ```
