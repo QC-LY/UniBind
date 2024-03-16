@@ -273,6 +273,14 @@ If you find this repository useful, please consider giving stars ⭐ and citatio
 }
 ```
 ```
+@article{han2023imagebind,
+  title={Imagebind-llm: Multi-modality instruction tuning},
+  author={Han, Jiaming and Zhang, Renrui and Shao, Wenqi and Gao, Peng and Xu, Peng and Xiao, Han and Zhang, Kaipeng and Liu, Chris and Wen, Song and Guo, Ziyu and others},
+  journal={arXiv preprint arXiv:2309.03905},
+  year={2023}
+}
+```
+```
 @inproceedings{lyu2024unibind,
   title={UniBind: LLM-Augmented Unified and Balanced Representation Space to Bind Them All},
   author={Lyu, Yuanhuiyi and Zheng, Xu and Zhou, Jiazhou and Wang, Lin},
