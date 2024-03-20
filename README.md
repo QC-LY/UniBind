@@ -245,6 +245,8 @@ Our codes are built on open-source codes, thanks to the following projects:
 * [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter)
 * [E-CLIP](https://github.com/jiazhou-garland/E-CLIP)
 
+Thanks for their outstanding works and open-source!
+
 ## Citation
 
 If you find this repository useful, please consider giving stars ⭐ and citations
