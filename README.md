@@ -285,11 +285,10 @@ If you find this repository useful, please consider giving stars ⭐ and citatio
 }
 ```
 ```
-@inproceedings{lyu2024unibind,
+@article{lyu2024unibind,
   title={UniBind: LLM-Augmented Unified and Balanced Representation Space to Bind Them All},
   author={Lyu, Yuanhuiyi and Zheng, Xu and Zhou, Jiazhou and Wang, Lin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={},
+  journal={arXiv preprint arXiv:2403.12532},
   year={2024}
 }
 ```
