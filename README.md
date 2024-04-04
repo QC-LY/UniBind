@@ -109,9 +109,9 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
 
 ## Zero-shot
 
-1. Download the **pre-trained weights** from [[link]()] to `./ckpts/`
+1. Download the **pre-trained weights** from [[link](https://drive.google.com/file/d/1Dgmj7ajdoT8hYHobJQfgIuB4CbVRoKUn/view?usp=sharing)] to `./ckpts/`
 
-2. Download the **centre embeddings** from [[link]()] to `./centre_embs/`
+2. Download the **centre embeddings** from [[link](https://drive.google.com/drive/folders/1aQ654WO9jFuK6bqz2YqhAVrT0vvXPiJW?usp=sharing)] to `./centre_embs/`
 
 3. Process the **datasets** in the following form:
    ```
@@ -149,9 +149,9 @@ The source code for ["UniBind: LLM-Augmented Unified and Balanced Representation
 
 ## Fine-tune
 
-1. Download the **pre-trained weights** from [[link]()] to `./ckpts/`
+1. Download the **pre-trained weights** from [[link](https://drive.google.com/file/d/1Dgmj7ajdoT8hYHobJQfgIuB4CbVRoKUn/view?usp=sharing)] to `./ckpts/`
 
-2. Download the **centre embeddings** from [[link]()] to `./centre_embs/`
+2. Download the **centre embeddings** from [[link](https://drive.google.com/drive/folders/1aQ654WO9jFuK6bqz2YqhAVrT0vvXPiJW?usp=sharing)] to `./centre_embs/`
 
 3. Generate the multi-modal data descriptions for your dataset via LLaMA-Adapter and GPT-4. Here we show the demo code for generating descriptions via LLaMA-Adapter:
 
